@@ -1,0 +1,79 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&family=Marmelad&display=swap');
+
+*{
+/*    font-family: 'Josefin Sans', sans-serif; */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #e8eddf;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#egg {
+    margin: 20px 0 0 20px;
+}
+
+#egg img {
+    width: 5vw;
+    height: auto;
+}
+
+
+#projectlg {
+    width: 60vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+}
+
+.area{
+    background: #1a1a1a;  
+    height: 10vh;
+    margin-top: -5vh;
+}
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0;
+    }
+
+    10%{
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+
+}
+
+
+
+
+
+
+
+
+.aboutus h1 {
+    font-size: 8vw;
+    text-align: center;
+}
